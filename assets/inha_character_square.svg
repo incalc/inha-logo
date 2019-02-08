@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154.6 164.9">
   <style>
-    .character__i { fill:#e8380d; }
-    .character__n { fill:#f39800; }
-    .character__h { fill:#009d85; }
-    .character__a, .text { fill:#005bac; }
+    .character__i { fill: #e8380d; }
+    .character__n { fill: #f39800; }
+    .character__h { fill: #009d85; }
+    .character__a, .text { fill: #005bac; }
   </style>
   <g class="character">
     <path class="character__i" d="M84.7 0c4.4 38.4-29 51.7-36 84.6C56.2 65.8 74.1 58 85.6 48.8 99.1 38.1 109 12.6 84.7 0z"/>
