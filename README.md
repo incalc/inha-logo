@@ -75,10 +75,10 @@ export default {
 </script>
 ```
 
-### Symbol Mark
+### [Symbol Mark](./vue/InhaSymbolMark.vue)
 
 ```html
-<inha-symbol-mark theme="black" size="48px"/>
+<inha-symbol-mark theme="black" size="48px" />
 ```
 
 #### Properties
@@ -86,10 +86,10 @@ export default {
 - theme: 로고 색상(`black`/`blue`/`gray`/`gold`/`sky`/`white`)
 - size: 로고 크기(default: `"192px"`)
 
-### Emblem
+### [Emblem](./vue/InhaEmblem.vue)
 
 ```html
-<inha-emblem theme="black" size="48px"/>
+<inha-emblem theme="black" size="48px" />
 ```
 
 #### Properties
