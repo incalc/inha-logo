@@ -48,5 +48,51 @@
 | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | ![Inha 50th Anniversary Emblem](./svg/animate/inha_50th_emblem.svg) | ![Inha 55th Anniversary Emblem](./svg/animate/inha_55th_emblem.svg) | ![Inha 60th Anniversary Emblem](./svg/animate/inha_60th_emblem.svg) |
 
+## Vue
 
+> Logo Components for [Vue.js](https://vuejs.org/)
 
+Vue.js 컴포넌트로 제공되는 로고입니다.
+
+```vue
+<template>
+  <div>
+    <inha-emblem />
+    <inha-symbol-mark />
+  </div>
+</template>
+
+<script>
+import InhaEmblem from './InhaEmblem.vue';
+import InhaSymbolMark from './InhaSymbolMark.vue';
+
+export default {
+  components: {
+    InhaEmblem,
+    InhaSymbolMark
+  }
+};
+</script>
+```
+
+### Symbol Mark
+
+```html
+<inha-symbol-mark theme="black" size="48px"/>
+```
+
+#### Properties
+
+- theme: 로고 색상(`black`/`blue`/`gray`/`gold`/`sky`/`white`)
+- size: 로고 크기(default: `"192px"`)
+
+### Emblem
+
+```html
+<inha-emblem theme="black" size="48px"/>
+```
+
+#### Properties
+
+- theme: 로고 색상(`black`/`blue`/`gray`/`gold`/`sky`/`white`)
+- size: 로고 크기(default: `"192px"`)
